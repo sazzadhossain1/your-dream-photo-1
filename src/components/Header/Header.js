@@ -1,21 +1,16 @@
-import React from "react";
-import "./Header.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
-  return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Nav className="me-auto link-component">
-          <Link to="/"> Home</Link>
-          <Link to="/service">Service</Link>
-          <Link to="/about"> About</Link>
-        </Nav>
-      </Container>
-    </Navbar>
-  );
+    return (
+        <div className='link-con'>
+            <Link to="/">Home</Link>
+            <Link to="/service">Service</Link>
+            <Link to="/about">About</Link>
+            <Link to='/checkOut'>Check Out</Link>
+        </div>
+    );
 };
 
 export default Header;

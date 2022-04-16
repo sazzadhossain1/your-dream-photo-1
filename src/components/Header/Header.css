@@ -1,0 +1,13 @@
+.link-component{
+    height: 70px;
+}
+.link-component a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.link-component a:hover{
+    color: red;
+}

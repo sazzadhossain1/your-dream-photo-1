@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <h1>This is app</h1>
       
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

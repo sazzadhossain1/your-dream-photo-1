@@ -2,4 +2,4 @@
 # Live link - 
 
 
-# - use slider in home components
+- use slider in home components

@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import {
+  useSendPasswordResetEmail,
+  useSignInWithEmailAndPassword,
+} from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
 import SocialButton from "../SocialButton/SocialButton";
@@ -12,10 +15,12 @@ const Login = () => {
   const navigate = useNavigate();
 
   const location = useLocation();
-  const from = location.state?.from?.pathname || '/';
+  const from = location.state?.from?.pathname || "/";
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
+
+  const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
   const handleEmailBlur = (event) => {
     setEmail(event.target.value);
@@ -29,8 +34,19 @@ const Login = () => {
     signInWithEmailAndPassword(email, password);
   };
   if (user) {
-    navigate(from, {replace: true});
+    navigate(from, { replace: true });
   }
+
+
+
+  const resetPassword = async() => {
+      const email = email.current.value;
+    await sendPasswordResetEmail(email);
+    alert('Sent email');
+  };
+
+
+
   return (
     <div className="input-container">
       <div className="input-area">
@@ -62,6 +78,13 @@ const Login = () => {
         <p className="google-link m-4">
           New to this site?
           <Link to="/signup">Create an Account</Link>
+        </p>
+
+        <p className="google-link m-4">
+          Forget Password?
+          <Link onClick={resetPassword} to="/signup">
+            Reset Password
+          </Link>
         </p>
 
         <SocialButton></SocialButton>

@@ -8,4 +8,4 @@
 - create check out component and impliment requreAuth in check out component
 - create login and signup from and when i am login then show sign out button in header right side.
 
-# technology use - (react-router, react-bootstrap, react-firebase-hooks,firebase and bootstrap)
+# technology use - (react-router, react-bootstrap, react-firebase-hooks,react-toastify,firebase and bootstrap)

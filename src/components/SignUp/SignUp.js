@@ -5,6 +5,11 @@ import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 
 const SignUp = () => {
+
+  const [agree, setAgree] = useState(false);
+
+
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -12,7 +17,9 @@ const SignUp = () => {
   const navigate = useNavigate();
 
   const [createUserWithEmailAndPassword, user] =
-    useCreateUserWithEmailAndPassword(auth);
+    useCreateUserWithEmailAndPassword(auth, {
+      sendEmailVerification: true
+    });
 
   const handleEmailBlur = (event) => {
     setEmail(event.target.value);
@@ -30,7 +37,7 @@ if(user){
     navigate('/')
 }
 
-  const handleCreateUser = (event) => {
+  const handleCreateUser = async (event) => {
     event.preventDefault();
     if (password !== confirmPassword) {
       setError("Your password did not match");
@@ -39,7 +46,7 @@ if(user){
       setError("Password must be 6 characters or longer");
     }
 
-    createUserWithEmailAndPassword(email, password);
+    await createUserWithEmailAndPassword(email, password);
   };
 
 
@@ -80,7 +87,7 @@ if(user){
 
           <p style={{ color: "red" }}>{error}</p>
 
-          <button>Sign up</button>
+          <button onClick={() => setAgree(!agree)}>Sign up</button>
         </form>
 
         <p className="google-link m-4">

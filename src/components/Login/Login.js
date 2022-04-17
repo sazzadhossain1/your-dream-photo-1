@@ -7,10 +7,14 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
 import SocialButton from "../SocialButton/SocialButton";
 import "./Login.css";
+import { ToastContainer, toast } from 'react-toastify';
+
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
 
   const navigate = useNavigate();
 
@@ -20,7 +24,19 @@ const Login = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
 
-  const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
+
+
+
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
+      auth
+    );
+    const resetPassword = async () =>{
+await sendPasswordResetEmail(email);
+toast('Sent email');
+    }
+
+ 
 
   const handleEmailBlur = (event) => {
     setEmail(event.target.value);
@@ -39,11 +55,7 @@ const Login = () => {
 
 
 
-  const resetPassword = async() => {
-      const email = email.current.value;
-    await sendPasswordResetEmail(email);
-    alert('Sent email');
-  };
+ 
 
 
 
@@ -82,12 +94,13 @@ const Login = () => {
 
         <p className="google-link m-4">
           Forget Password?
-          <Link onClick={resetPassword} to="/signup">
+          <button   onClick={resetPassword}>
             Reset Password
-          </Link>
+          </button>
         </p>
 
         <SocialButton></SocialButton>
+        <ToastContainer />
       </div>
     </div>
   );

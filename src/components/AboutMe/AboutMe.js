@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="aboutMe-container">
       <img src={aboutMePhoto} alt="" />
-      <h1>Sazzad Hossain</h1>
+      <h1 className="mt-3">Sazzad Hossain</h1>
       <br />
       <p>
         My greatest goal as a photographer is to get people to see what I see.

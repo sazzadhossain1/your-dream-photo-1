@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Wedding Photo",
+      "description": "Create a wedding website that is uniquely yours, completely customizable, and anticipates all your wedding planning needs ",
+      "price": 10000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSweMzINk6z6OCx9QDhjlcHuPrBFx7OCG84stWaFvMXYXFYtgCoLkkHkZiY4gFMcwNL9mg&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Concert Event Photo ",
+      "description": "CU Presents is the home of performing arts on the beautiful University of Colorado Boulder campus. With hundreds of concerts, plays.",
+      "price": 10000,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2021/4/OF/MO/TO/126592690/event-photography-service-500x500.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday Event Photo",
+      "description": "your friends and fam want to see you living it up, especially on your big day. A clever birthday caption shares a snippet of b-day revelry with your network. ",
+      "price": 15000,
+      "image": "https://5.imimg.com/data5/ZL/GD/VV/SELLER-58710104/birthday-photographers-500x500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Office Event Photo ",
+      "description": "After taking photos of an event, as a microstocker I think our responsibility is not limited with the quality of the photo only, but it's also about a professional caption for the subject & the event as well. ",
+      "price": 30000,
+      "image": "https://media.istockphoto.com/photos/man-speaking-at-a-business-conference-picture-id499517325?b=1&k=20&m=499517325&s=170667a&w=0&h=jMCaZov25c5VR1CP-4axUdJPEKSpBWbzzWAubQS3-oo="
+    },
+    {
+      "id": 5,
+      "name": " Family event Photo ",
+      "description": "Everyone knows that a photo can tell a thousand words. But then again, there's also no harm in adding a few words alongside the photo. This is why this collection came into being!",
+      "price": 14000,
+      "image": "https://image.shutterstock.com/image-photo/older-family-relaxing-outdoor-summer-260nw-267546875.jpg"
+    },
+    {
+      "id": 6,
+      "name": "University Event Photo",
+      "description": "Any moment now, you’ll be heading to that stage (or field or virtual ceremony), with cap and gown in tow, signifying to family, friends and proud onlookers that you are finally a graduate.",
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80"
+    }
+  ]

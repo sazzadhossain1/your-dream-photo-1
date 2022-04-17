@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className='link-con'>
             <Link to="/">Home</Link>
-            <Link to="/service">Service</Link>
+            {/* <Link to="/service">Service</Link> */}
             <Link to='/checkOut'>Check Out</Link>
             <Link to='/blogs'>Blogs</Link>
             <Link to='/about'>About Me</Link>

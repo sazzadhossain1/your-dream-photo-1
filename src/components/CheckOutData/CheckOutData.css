@@ -1,0 +1,28 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.img-container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 50px 5px;
+}
+
+.details{
+    width: 300px;
+    margin: 100px;
+}
+
+.details button{
+    border: none;
+    background-color: cornsilk;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+}

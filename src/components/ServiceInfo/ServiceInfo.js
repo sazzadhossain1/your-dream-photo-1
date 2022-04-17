@@ -8,6 +8,7 @@ const ServiceInfo = ({ service }) => {
   return (
     <div>
       <div className="info-container">
+        
         <img src={image} alt="" />
         <div className="information">
         <h5>{name}</h5>

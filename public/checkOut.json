@@ -2,43 +2,50 @@
     {
       "id": 1,
       "name": "Wedding Photo",
-      "description": "Create a wedding website that is uniquely yours, completely customizable, and anticipates all your wedding planning needs ",
+      "description": "We would be happy to assist you on your wedding in Norway!  We are professional wedding planners, based near Oslo, Norway. We have more than 17 years experience, and we travel all over Norway for our clients! Every wedding and couple is unique, and because of that we organize bespoke weddings.",
+      "phone":"xxxxxxxxxx",
       "price": 10000,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSweMzINk6z6OCx9QDhjlcHuPrBFx7OCG84stWaFvMXYXFYtgCoLkkHkZiY4gFMcwNL9mg&usqp=CAU"
+      "image": "https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg"
     },
+
     {
       "id": 2,
       "name": "Concert Event Photo ",
-      "description": "CU Presents is the home of performing arts on the beautiful University of Colorado Boulder campus. With hundreds of concerts, plays.",
+      "description": "As far as events go, those with live music are some of the most engaging and entertaining for attendees. But without the right plan in place, they can also be the most likely to hit some bumps in the road. That’s why we put together this guide on how to plan a concert.",
+      "phone":"xxxxxxxxxx",
       "price": 10000,
-      "image": "https://5.imimg.com/data5/SELLER/Default/2021/4/OF/MO/TO/126592690/event-photography-service-500x500.jpg"
+      "image": "https://media.istockphoto.com/photos/party-people-enjoy-concert-at-festival-summer-music-festival-picture-id1324561072?b=1&k=20&m=1324561072&s=170667a&w=0&h=LwWrgpVzxoznttv_6qXMVtZHer1QSLNbfHmORZCFhN0="
     },
     {
       "id": 3,
       "name": "Birthday Event Photo",
-      "description": "your friends and fam want to see you living it up, especially on your big day. A clever birthday caption shares a snippet of b-day revelry with your network. ",
+      "description": "Not exactly sure what invitation wording and details to include on your little one’s birthday invitation? We’re here to help! Read on to learn more about kids’ birthday invitation wording and what specifics to include when writing the invite itself. ",
+      "phone":"xxxxxxxxxx",
       "price": 15000,
-      "image": "https://5.imimg.com/data5/ZL/GD/VV/SELLER-58710104/birthday-photographers-500x500.jpg"
+      "image": "https://i.pinimg.com/originals/c3/68/c0/c368c0744157e8385626124259bd73dd.jpg"
     },
     {
       "id": 4,
       "name": "Office Event Photo ",
       "description": "After taking photos of an event, as a microstocker I think our responsibility is not limited with the quality of the photo only, but it's also about a professional caption for the subject & the event as well. ",
+      "phone":"xxxxxxxxxx",
       "price": 30000,
-      "image": "https://media.istockphoto.com/photos/man-speaking-at-a-business-conference-picture-id499517325?b=1&k=20&m=499517325&s=170667a&w=0&h=jMCaZov25c5VR1CP-4axUdJPEKSpBWbzzWAubQS3-oo="
+      "image": "http://expo.epsvolt.com/wp-content/uploads/2018/10/EVENT-MANAGEMENT.jpg"
     },
     {
       "id": 5,
       "name": " Family event Photo ",
-      "description": "Everyone knows that a photo can tell a thousand words. But then again, there's also no harm in adding a few words alongside the photo. This is why this collection came into being!",
+      "description": "Families can be described in a lot of different ways. Finding the right word to describe a particular family—your own, someone else’s, or even a factional family—can be a challenge. Start with thinking about what aspect of family life you want to describe and choose a powerful word that accurately conveys the sentiment you’d like to share.",
+      "phone":"xxxxxxxxxx",
       "price": 14000,
-      "image": "https://image.shutterstock.com/image-photo/older-family-relaxing-outdoor-summer-260nw-267546875.jpg"
+      "image": "https://media.istockphoto.com/photos/latinohispanic-family-at-home-enjoying-weekend-with-kids-picture-id1157093074?k=20&m=1157093074&s=612x612&w=0&h=e7u2R4wOPYNuLTyxMaSlsrH9dyWNm1X2lny8gteL-ks="
     },
     {
       "id": 6,
       "name": "University Event Photo",
-      "description": "Any moment now, you’ll be heading to that stage (or field or virtual ceremony), with cap and gown in tow, signifying to family, friends and proud onlookers that you are finally a graduate.",
+      "description": "This chapter details the cornerstone policies of Stanford University and covers standards of conduct, conflict of interest, Stanford name and trademark use, privacy/HIPAA compliance, protection of minors, signature and financial approval authority, and organization charts for all major academic, research, and administrative offices.",
+      "phone":"xxxxxxxxxx",
       "price": 5000,
-      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80"
+      "image": "https://media.npr.org/assets/img/2020/11/24/benedict-commencement-2020-photo--1_slide-69264543590b7a8bafe36b94b6418117870f7520-s1100-c50.jpeg"
     }
   ]

@@ -1,28 +1,28 @@
 .main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+margin: 10px;
+width: 420px;
+height: 550px;
+margin-bottom: 100px;
     
 }
 
 .img-container img{
     height: 300px;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
-    box-shadow: 2px 5px 50px 5px;
+    box-shadow: 1px 3px 20px 1px;
 }
-
 .details{
-    width: 300px;
-    margin: 100px;
+    margin-top: 20px;
 }
 
-.details button{
+.book-now{
+    width: 100px;
+    margin-bottom: 100px;
     border: none;
-    background-color: cornsilk;
+    background-color: rgb(221, 205, 139);
     height: 50px;
     width: 110px;
     border-radius: 10px;
 }
+

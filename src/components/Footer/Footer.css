@@ -1,0 +1,19 @@
+.footer-container{
+    background-color: black;
+    height: 150px;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact-container{
+    color: rgba(255, 0, 0, 0.562);
+    
+}
+.footer-container p{
+    color: white;
+    
+}

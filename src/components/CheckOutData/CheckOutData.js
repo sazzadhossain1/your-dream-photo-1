@@ -2,17 +2,18 @@ import React from "react";
 import "./CheckOutData.css";
 
 const CheckOutData = ({ checkOutData }) => {
-  const { name, description, image, price } = checkOutData;
+  const { name, description, image, price, phone } = checkOutData;
   return (
     <div className="main-container">
       <div className="img-container">
         <img src={image} alt="" />
-      </div>
-      <div className="details">
-          <p>{name}</p>
-          <p>Taka {price}</p>
+        <div className="details">
+          <h5>{name}</h5>
+          <p>Price {price}Tk</p>
+          <p>Phone.no - {phone}</p>
           <p>{description}</p>
-      <button>Book Now</button>
+        </div>
+        <button className="book-now">Book Now</button>
       </div>
     </div>
   );

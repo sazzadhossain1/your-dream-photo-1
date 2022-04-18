@@ -1,14 +1,9 @@
-.link-con a{
-    text-decoration: none;
+.link-container a{
     margin: 20px;
-    color: white;
+};
+.text:hover {
+    color:white;
 }
-.link-con a:hover{
-    color: red;
-}
-.link-con {
-background-color: black;
-height: 70px;
-padding: 20px;
 
-}
+
+

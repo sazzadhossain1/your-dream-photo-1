@@ -11,6 +11,7 @@ import RequireAuth from "./components/RequireAuth/RequireAuth";
 import Blogs from "./components/Blogs/Blogs";
 import AboutMe from "./components/AboutMe/AboutMe";
 import NotFound from "./components/NotFound/NotFound";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -19,16 +20,21 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        {/* <Route path="/service" element={<Service></Service>}></Route> */}
         
-        <Route
+        {/* <Route
           path="/checkOut"
           element={
             <RequireAuth>
               <CheckOut></CheckOut>
             </RequireAuth>
           }
-        ></Route>
+        ></Route> */}
+
+        <Route path="/service" element={
+          <RequireAuth>
+            <Services></Services>
+          </RequireAuth>
+        }></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<AboutMe></AboutMe>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>

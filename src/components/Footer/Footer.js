@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer-container">
         <div className="contact-container">
             <h4>WeddingPhotography@gmail.com</h4>
-            <h6>Phone.no - XXXXXXXXXXX</h6>
+            <h6>Phone.no - 017xxxxxxxx</h6>
         </div>
       <p>
         <small>CopyRight @ {year} Wedding Photography</small>

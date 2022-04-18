@@ -2,7 +2,7 @@ import React from "react";
 import "./CheckOutData.css";
 
 const CheckOutData = ({ checkOutData }) => {
-  const { name, description, image, price, phone } = checkOutData;
+  const { name, description, image, price} = checkOutData;
   return (
     <div className="main-container">
       <div className="img-container">
@@ -10,7 +10,6 @@ const CheckOutData = ({ checkOutData }) => {
         <div className="details">
           <h5>{name}</h5>
           <p>Price {price}Tk</p>
-          <p>Phone.no - {phone}</p>
           <p>{description}</p>
         </div>
         <button className="book-now">Book Now</button>

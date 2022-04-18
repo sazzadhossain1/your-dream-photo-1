@@ -16,6 +16,8 @@ const AboutMe = () => {
         of my photographs, and know what it is, and how I felt about it, or even
         feel the same way, I have succeeded.
       </p>
+      <p>Phone.no : 017xxxxxxxx</p>
+      <p>Email : sazzadtomal1@gmaile.com</p>
     </div>
   );
 };

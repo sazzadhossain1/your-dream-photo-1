@@ -1,19 +1,19 @@
 .info-container {
-  padding: 20px;
+  padding:10px;
   width: 400px;
   height: 600px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 50px;
   border-radius: 20px;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px 5px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 
 .info-container img {
   height: 300px;
   width: 250px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .information{

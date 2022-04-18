@@ -1,16 +1,18 @@
 .main-container{
 margin: 10px;
 width: 420px;
-height: 550px;
+height: 650px;
 margin-bottom: 100px;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+padding: 10px;
+border-radius: 5px;
+
     
 }
 
 .img-container img{
     height: 300px;
     width: 400px;
-    border-radius: 10px;
-    box-shadow: 1px 3px 20px 1px;
 }
 .details{
     margin-top: 20px;

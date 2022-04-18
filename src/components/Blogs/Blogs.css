@@ -1,11 +1,10 @@
 .blog-container{
     height: 650px;
-    width: 800px;
+    width: 850px;
     margin: auto;
     margin-top: 30px;
-    border: 1px solid;
-    box-shadow: 2px 2px 50px 10px;
-    padding: 10px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding: 25px;
     border-radius: 20px;
     
 }

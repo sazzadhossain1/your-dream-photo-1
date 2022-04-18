@@ -23,9 +23,7 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
 
-              <Nav.Link className="text-danger" as={Link} to="/checkOut">
-                Check Out
-              </Nav.Link>
+              
 
               
 

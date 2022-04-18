@@ -16,7 +16,7 @@ const ServiceInfo = ({ service }) => {
         <p>{description}</p>
         </div>
         <button className="checkOut mb-3">
-          <Link to="/service">Check Out</Link>
+          <Link to="/checkOut">Check Out</Link>
         </button>
       </div>
     </div>

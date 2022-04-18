@@ -1,5 +1,5 @@
 # Name - Wedding Photography,
-# Live link - https://wedding-photography-c1317.web.app/checkOut
+# Live link - https://wedding-photography-c1317.firebaseapp.com/
 
 
 - use slider in home components

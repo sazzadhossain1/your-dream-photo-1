@@ -100,7 +100,7 @@ toast('Sent email');
         </p>
 
         <SocialButton></SocialButton>
-        <ToastContainer />
+         
       </div>
     </div>
   );

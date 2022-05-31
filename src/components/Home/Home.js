@@ -12,18 +12,15 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <h1>Your Dream Photo</h1>
+      <h1>Your Dream PhotOoo</h1>
       <Banner></Banner>
       <div>
         <h1 className="mt-5">Our Services</h1>
-      <div className=" service-container">
-        
-        
-        {services.map((service) => (
-          <ServiceInfo key={service.id} service={service}></ServiceInfo>
-        ))}
-       
-      </div>
+        <div className=" service-container">
+          {services.map((service) => (
+            <ServiceInfo key={service.id} service={service}></ServiceInfo>
+          ))}
+        </div>
       </div>
     </div>
   );
